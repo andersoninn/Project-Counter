@@ -72,7 +72,9 @@ p{
     margin: 10px 0px 10px 0px;
     padding: 10px;
     background-color: rgba(118, 185, 135, 0.555);
+    
     text-align: center;
+    
     display: grid;
     grid-template-columns: auto 10%;
 
