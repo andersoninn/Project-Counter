@@ -37,7 +37,7 @@ main{
     
     background-color: lightblue;
     border: 2px solid red;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center ;
@@ -49,14 +49,17 @@ padding: 5px;
 border: 1px solid blue;
 }
 p{
+    padding-left: 10px;
+    padding-right: 10px;
     font-style: italic;
+    font-size: 0.7em;
 }
 .res{
     background-color: lightblue;
     border: 2px solid red;
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: auto auto auto;
     text-align: center;
 }
 .res div{
@@ -64,11 +67,16 @@ p{
     padding: 5px;
     border: 1px solid blue;
 }
-
+.title-supermarket{
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    background-color: rgba(118, 185, 135, 0.555);
+    text-align: center;
+}
 .supermarket{
     background-color: lightgray;
     border: 2px solid red;
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
@@ -81,15 +89,8 @@ p{
 }
 
 
-#title-supermarket{
-    margin: 20px 0px 10px 0px;
-    padding: 10px;
-    background-color: rgba(118, 185, 135, 0.555);
-    text-align: center;
-}
 
-main input{
-    width: 60px;
-}
+
+
 
 
