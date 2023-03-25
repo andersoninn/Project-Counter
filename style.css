@@ -5,7 +5,7 @@ body{
     height: 762px;
     background-size: cover;
     background-repeat: no-repeat;  
-    width: 80vw;
+    width: 95vw;
     height: 10vh;
     margin: auto;
 }
@@ -62,9 +62,18 @@ border: 1px solid blue;
     border: 1px solid blue;
 }
 
-#superMarket{
+.supermarket{
     background-color: lightgray;
+    border: 2px solid red;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% 25% auto auto;
+}
+
+.supermarket div{
+    background-color: aquamarine;
     padding: 5px;
+    border: 1px solid blue;
 }
 
 
