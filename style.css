@@ -7,7 +7,6 @@ body{
     background-repeat: no-repeat;  
     width: 95vw;
     height: 10vh;
-    margin: auto;
 }
 header{
     background-color: rgb(90, 134, 101);
@@ -23,7 +22,7 @@ main{
     border-radius: 10px;
     padding: 10px;
     backdrop-filter: blur(20px); 
-    font-size: 0.8em;
+    font-size: 1em;
 }
 #title-bills{
     margin:-10px;
@@ -41,6 +40,7 @@ main{
     padding: 10px;
     display: grid;
     grid-template-columns: auto auto auto;
+    text-align: center ;
     
 }
 .bills div{
@@ -48,13 +48,16 @@ background-color: aquamarine;
 padding: 5px;
 border: 1px solid blue;
 }
-
+p{
+    font-style: italic;
+}
 .res{
     background-color: lightblue;
     border: 2px solid red;
     padding: 10px;
     display: grid;
     grid-template-columns: 100px 100px 100px;
+    text-align: center;
 }
 .res div{
     background-color: aquamarine;
@@ -67,7 +70,8 @@ border: 1px solid blue;
     border: 2px solid red;
     padding: 10px;
     display: grid;
-    grid-template-columns: 30% 25% auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: center;
 }
 
 .supermarket div{
