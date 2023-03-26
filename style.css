@@ -51,6 +51,40 @@ background-color: aquamarine;
 padding: 5px;
 border: 1px solid rgb(0, 0, 0);
 }
+
+
+#title-individual-bills{
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+   
+    background-color: rgba(118, 185, 135, 0.555);
+    text-align: center;
+} 
+
+.individual-bills{
+    background-color: lightblue;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 10% auto auto;
+    text-align: center;
+}
+.individual-bills div{
+    background-color: aquamarine;
+    padding: 5px;
+    border: 1px solid black;
+}
+#nos{
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+
+
+
+
+
+
+
 p{
     padding-left: 10px;
     padding-right: 10px;
