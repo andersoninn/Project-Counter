@@ -2,14 +2,14 @@
 
 
 body{
-    /*background-image: url(pexels-andre-moura-2635817.jpg);*/
+    background-image: url(pexels-andre-moura-2635817.jpg);
     font-family: Arial, Helvetica, sans-serif;
     height: 762px;
     background-size: cover;
     background-repeat: no-repeat;  
     width: 95vw;
     height: 95.7vh;
-    /*color: white;*/
+    color: white;
 }
 header{
     background-color: rgb(90, 134, 101);
@@ -38,8 +38,8 @@ main{
 
 .fixed-bills{
     
-    background-color: lightblue;
-    border: 2px solid red;
+    /*background-color: lightblue;
+    border: 2px solid red;*/
     padding: 20px 10px 0px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -47,9 +47,9 @@ main{
     
 }
 .fixed-bills div{
-background-color: aquamarine;
+/*background-color: aquamarine;*/
 padding: 5px;
-border: 1px solid rgb(0, 0, 0);
+border: 1px solid rgb(252, 251, 251);
 }
 
 
@@ -62,47 +62,45 @@ border: 1px solid rgb(0, 0, 0);
 } 
 
 .individual-bills{
-    background-color: lightblue;
-    border: 2px solid red;
+    margin: 0px 10px 0px 10px;
+    /*background-color: lightblue;
+    border: 2px solid red;*/
     display: grid;
     grid-template-columns: 10% auto auto;
     text-align: center;
 }
 .individual-bills div{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 #nos{
+    padding-top: 90px;
     grid-row-start: 1;
     grid-row-end: 7;
+    text-align: center;
+    
+    
 }
-
-
-
-
-
-
-
-
 p{
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
     font-style: italic;
     font-size: 0.7em;
 }
 .res{
-    background-color: lightblue;
-    border: 2px solid red;
+    /*background-color: lightblue;
+    border: 2px solid red;*/
     padding: 0px 10px 0px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
 }
 .res div{
-    background-color: aquamarine;
+   /* background-color: aquamarine;*/
     padding: 5px;
-    border: 1px solid rgb(5, 5, 5);
+    border: 1px solid rgb(255, 255, 255);
 }
 .title-supermarket{
     margin: 10px 0px 10px 0px;
@@ -123,7 +121,6 @@ p{
     grid-template-columns: auto auto auto;
     text-align: center;
 }
-
 .supermarket div{
     background-color: aquamarine;
     border: 1px solid rgb(0, 0, 0);
