@@ -67,7 +67,7 @@ border: 1px solid rgb(252, 251, 251);
     /*background-color: lightblue;
     border: 2px solid red;*/
     display: grid;
-    grid-template-columns: 10% auto auto;
+    grid-template-columns: 15% auto auto;
     text-align: center;
 }
 .individual-bills div{
@@ -76,7 +76,7 @@ border: 1px solid rgb(252, 251, 251);
     border: 1px solid rgb(255, 255, 255);
 }
 #nos{
-    padding-top: 90px;
+    padding: 90px 5px 0px 5px;
     grid-row-start: 1;
     grid-row-end: 7;
     text-align: center;  
