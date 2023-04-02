@@ -1,27 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index-style.css">
-    <title>Bem vindo!</title>
+    <link rel="stylesheet" href="/styles/home-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <title>Contador</title>
 </head>
 <body>
+    <header>
+        <h1>CONTADOR</h1>
+    </header>
     <main>
-        <h1>
-            Seja bem vindo ao Programa Contador!
-        </h1>
-        <p>
-            Este programa foi desenvolvido para facilitar as divisões de contas mensais da "Jungle Home", feita entre:
-            Anderson Carvalho (desenvolvedor), 
-            Yasmim Freitas (ditadora), e nosso primo vegano que mora com a gente, Vitor Mattos.
-        </p>
-        <h2>
-            Para aceder ao programa clique no botão a baixo:
-        </h2>
-        <button onclick="welcome()"> ACEDER</button>
+        <div id="title-bills">CONTAS COMUNS</div>
+        <section class="fixed-bills">
+              
+            <div>Tipo de conta</div>
+            <div>Valor da conta</div>
+            <div>Valor da divisão</div>
+           
+            <div id="rent">Aluguel</div>
+            <div><input type="number" name="rent1" id="rent1" style="width:80px"></div>
+            <div id="output-rent">0.00</div>
+            
+            <div id="electricity">Luz</div>
+            <div><input type="number" name="electricity1" id="electricity1" style="width:80px"></div>
+            <div id="output-electricity">0.00</div>
+            
+            <div id="water">Água</div>
+            <div><input type="number" name="water1" id="water1" style="width:80px"></div>
+            <div id="output-water">0.00</div> 
+            
+            <div id="sewage">Esgoto</div>
+            <div><input type="number" name="sewage1" id="sewage1" style="width:80px"></div>
+            <div id="output-sewage">0.00</div>  
+        </section>
+
+        <div id="title-individual-bills">CONTAS INDIVIDUAIS</div>
+        <section class="individual-bills">
+            <div id="nos">NOS</div>
+            <div id="item22">Pack NOS</div>
+            <div><input type="number" name="nos1" id="nos1" style="width:80px"></div>
+
+            <div id="gadgets">Aparelhos</div>
+            <div><input type="number" name="gadgets1" id="gadgets1" style="width:80px"></div>
+            
+            <div id="t-and">Tel. And</div>
+            <div><input type="number" name="t-and1" id="t-and1" style="width:80px"></div>
+            
+            <div id="t-yas">Tel. Yas</div>
+            <div><input type="number" name="t-yas1" id="t-yas1" style="width:80px"></div>
+
+            <div id="t-vitor">Tel. Vitor</div>
+            <div><input type="number" name="t-vitor1" id="t-vitor1" style="width:80px"></div>
+
+            <div id="t-sandra">Tel. Sandra</div>
+            <div><input type="number" name="t-sandra1" id="t-sandra1" style="width:80px"></div>
+            <div id="spotify">Spotify</div>
+            <div id="spotify-discription">Os valores do plano família do Spotify (2,00€/pessoa) serão somados aos valores finais desta aba, para as pessoas que o utilizam. Sendo: Anderson, Yasmim e Vitor.</div>
+        
+            
+        </section>
+        <div>
+            <p>
+                Levando em consideração uma divisão por 3 das contas comuns e a soma dos valores individuais para cada indivíduo, estes estão os valores por pessoa:
+            </p>
+        </div>
+        <section class="res">
+            
+            <div>Anderson</div>
+            <div>Yasmim</div>
+            <div>Vitor</div>
+            <div id="output-totalAnd"></div>
+            <div id="output-totalYas">outout3</div>
+            <div id="output-totalVitor">output1</div>
+           
+
+        </section>
+        <section class="title-supermarket">
+            <div>
+                
+            </div>
+        <div > 
+            COMPRAS DE MERCADO
+        </div>
+        <div>
+            <span class="material-symbols-outlined"> add_circle </span>
+        </div>
+        </section>
+        <section class = "supermarket">
+            <div>Valor total da nota:
+                <input type="number" name="note[]" id="note" style="width:80px">
+            </div>
+                
+                <div>Compras do Vitor 
+                    <input type="number" name="note[]" id="note" style="width:80px"> </div>
+                <div>Compras And/Yas
+                    <input type="number" name="note[]" id="note" style="width:80px"></div>
+        </section>
+        <section class = "supermarket">
+            <div>Valor total da nota:
+                <input type="number" name="note[]" id="note" style="width:80px">
+            </div>
+                
+                <div>Compras do Vitor 
+                    <input type="number" name="note[]" id="note" style="width:80px"> </div>
+                <div>Compras And/Yas
+                    <input type="number" name="note[]" id="note" style="width:80px"></div>
+        </section>
+        <section class = "supermarket">
+            <div>Valor total da nota:
+                <input type="number" name="note[]" id="note" style="width:80px">
+            </div>
+                
+                <div>Compras do Vitor 
+                    <input type="number" name="note[]" id="note" style="width:80px"> </div>
+                <div>Compras And/Yas
+                    <input type="number" name="note[]" id="note" style="width:80px"></div>
+        </section>  
+        <footer>Developed by Anderson Carvalho ©</footer>     
     </main>
     <script src="js/functions.js"></script>
 </body>
 </html>
+<!--
+<div>Tipo de conta</div>
+<div>Valor da conta</div>
+<div>Valor da divisão</div>
+
+
+
+
+             
+
+
+<div>output5</div>
+
+<div>Internet e TV</div>
+<div><input type="number" name="Internet1" id="internet1" style="width:80px"></div>
+<div>output5</div>
+
+<div>Telemovel And</div><div><input type="number" name="Internet1" id="internet1" style="width:80px"></div>
+    <div>output5</div>
+
+<div>Telemovel Yas</div><div><input type="number" name="Internet1" id="internet1" style="width:80px"></div>
+    <div>output5</div>
+
+<div>Telemovel Vitor</div><div><input type="number" name="Internet1" id="internet1" style="width:80px"></div>
+    <div>output5</div>
+
+<div>Telemovel Sandra</div><div><input type="number" name="Internet1" id="internet1" style="width:80px"></div>
+    <div>output5</div>
+
+-->

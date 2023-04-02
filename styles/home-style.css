@@ -20,7 +20,7 @@ header{
 }
 main{
     margin: auto;
-    background-color: rgba(190, 211, 195, 0.11);
+    background-color: rgba(255, 255, 255, 0.11);
     box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.849);
     border-radius: 10px;
     padding: 10px;
@@ -28,7 +28,6 @@ main{
     font-size: 1em;
 }
 #title-bills{
-    margin:-10px;
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -36,31 +35,39 @@ main{
     text-align: center;
 } 
 .fixed-bills{
-    
-    /*background-color: lightblue;
-    border: 2px solid red;*/
-    padding: 20px 10px 0px 10px;
+    margin: -10px 0px 10px 0px;
+    box-shadow: 2px 10px 10px black;
+    background-color: rgba(255, 255, 255, 0.127);
+    padding: 10px 10px 10px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center ;
     
 }
+.fixed-bills{
+    margin-top: 0px;
+    padding: 10px 5px 10px 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 .fixed-bills div{
 /*background-color: aquamarine;*/
-padding: 5px;
-border: 1px solid rgb(252, 251, 251);
+padding: 10px;
+border: 1px solid rgb(255, 255, 255);
 }
 #title-individual-bills{
     margin: 10px 0px 10px 0px;
     padding: 10px;
-   
     background-color: rgba(118, 185, 135, 0.555);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     text-align: center;
 } 
 .individual-bills{
-    margin: 0px 10px 0px 10px;
-    /*background-color: lightblue;
-    border: 2px solid red;*/
+    margin: -10px 0px 10px 0px;
+    box-shadow: 2px 10px 10px black;
+    background-color: rgba(255, 255, 255, 0.127);
+    padding: 10px 10px 10px 10px;
     display: grid;
     grid-template-columns: 15% auto auto;
     text-align: center;
