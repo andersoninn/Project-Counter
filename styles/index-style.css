@@ -143,7 +143,7 @@ p{
 .material-symbols-outlined{
     font-size: 0.5em;
     color: rgb(252, 252, 252);
-    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.497); */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.497);
     background-color: rgba(118, 185, 135, 0.555);    
 }
 /* .material-symbols-outlined:hover{
