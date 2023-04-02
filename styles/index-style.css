@@ -65,7 +65,7 @@ border: 1px solid rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.127);
     padding: 10px 10px 10px 10px;
     display: grid;
-    grid-template-columns: 15% auto auto;
+    grid-template-columns: 20% auto auto;
     text-align: center;
 
     border-bottom-left-radius: 10px;
