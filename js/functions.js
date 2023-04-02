@@ -80,4 +80,6 @@ var Tsandra = document.querySelector('#t-sandra1')
 
     
 
+function addNote(){
     
+} 
