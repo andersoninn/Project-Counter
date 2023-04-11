@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
-
+:root{
+    --bg-title: rgb(90, 134, 101) ;
+    --bx-shadown: 2px 10px 10px rgba(0, 0, 0, 0.849);
+    --border: 1px solid rgb(255, 255, 255);
+    --main-color:rgba(255, 255, 255, 0.11);
+    --text-color: white ;   
+}  
 body{
     margin: auto;
     background-image: url(../images/pexels-andre-moura-2635817.jpg);
@@ -10,82 +16,66 @@ body{
     background-repeat: no-repeat;  
     width: 100%;
     height: 100%;
-    color: white;
+    color: var(--text-color);
 }
 header{
-    background-color: rgb(90, 134, 101);
-    color: white;
-    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.849);
+    background-color: var(--bg-title) ;
+    box-shadow: var(--bx-shadown);
     border-radius: 10px;
     text-align: center;
 }
 main{
-    background-color: rgba(255, 255, 255, 0.11);
-    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.849);
+    background-color: var(--main-color) ;
+    box-shadow: var(--bx-shadown);
     border-radius: 10px;
     padding: 10px;
     backdrop-filter: blur(20px); 
     font-size: 1em;
 }
-#title-bills{
+h2{
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: normal;
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: rgba(118, 185, 135, 0.555);
+    background-color:var(--bg-title);
     text-align: center;
 } 
-.fixed-bills{
-    margin: 0px 0px 10px 0px;
-    box-shadow: 2px 10px 10px black;
-    background-color: rgba(255, 255, 255, 0.127);
-    padding: 10px 10px 10px 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center ;
-    
+.box{
+    margin: -13px 0px 10px 0px;
+    padding: 10px;
+    box-shadow: var(--bx-shadown);
+    background-color:var(--main-color);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: center ;
+
+    display: grid;
+}
+.fixed-bills{   
+    grid-template-columns: auto auto auto;
 }
 .fixed-bills div{
-/*background-color: aquamarine;*/
-padding: 10px;
-border: 1px solid rgb(255, 255, 255);
-}
-#title-individual-bills{
-    margin: 10px 0px 10px 0px;
     padding: 10px;
-    background-color: rgba(118, 185, 135, 0.555);
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    text-align: center;
-} 
+    border: var(--border);
+}
 .individual-bills{
-    margin: -10px 0px 10px 0px;
-    box-shadow: 2px 10px 10px black;
-    background-color: rgba(255, 255, 255, 0.127);
-    padding: 10px 10px 10px 10px;
-    display: grid;
+    background-color:var(--main-color);
     grid-template-columns: 20% auto auto;
-    text-align: center;
-
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 .individual-bills div{
-    /*background-color: aquamarine;*/
     line-height: 28px;
     padding: 5px;
-    border: 1px solid rgb(252, 252, 252);
+    border: var(--border);
 }
 #nos{
     line-height: 228px;
     grid-row-start: 1;
     grid-row-end: 7;
-    
 }
 #spotify{
     line-height: 80px;
-
 }
 #spotify-discription{
     text-align: justify;
@@ -94,68 +84,40 @@ border: 1px solid rgb(255, 255, 255);
     grid-column-end: 4;
 }
 p{
-    padding-left: 10px;
-    padding-right: 10px;
     text-align: center;
     font-style: italic;
     font-size: 0.7em;
 }
 .res{
-    /*background-color: lightblue;
-    border: 2px solid red;*/
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
 }
 .res div{
-   /* background-color: aquamarine;*/
     padding: 5px;
-    border: 1px solid rgb(255, 255, 255);
-}
-.title-supermarket{
-    margin: 10px 0px 10px 0px;
-    padding: 10px;
-    background-color: rgba(118, 185, 135, 0.555);
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;  
-    text-align: center;
-
-    display: grid;
-    grid-template-columns: 10% auto 10%;
-
+    border: var(--border);
 }
 .supermarket{
-    margin: -10px 0px -10px 0px;
-    padding: 10px 10px 10px 10px;
-    background-color: rgba(255, 255, 255, 0.127);
-
-    display: grid;
     grid-template-columns: auto auto auto;
-    text-align: center;
-
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 .supermarket div{
-    /*background-color: aquamarine;*/
     padding: 5px;
-    border: 1px solid rgb(252, 252, 252);
+    border: var(--border);
 }
 .material-symbols-outlined{
     font-size: 0.5em;
-    color: rgb(252, 252, 252);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.497);
-    background-color: rgba(118, 185, 135, 0.555);    
+    color: var(--text-color);   
 }
-/* .material-symbols-outlined:hover{
-    text-shadow: 0px 0px 10px rgba(252, 252, 252, 0.347);
-} */
 footer{
-    margin: 10px 0px 5px 0px;
+    margin: -10px 0px 5px 0px;
     padding: 10px;
     font-size: 0.6em;
     text-align: center;
-    background-color: rgba(118, 185, 135, 0.555);
-    box-shadow: 2px 10px 10px black;
+    background-color:var(--bg-title);
+    box-shadow: var(--bx-shadown);
 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
