@@ -40,14 +40,14 @@ individualBills.forEach((item) => {
                     // alert('diferente')
                 }
         }else{
-            alert('menor que zero')
+            alert('Digite um montate válido')
         }
     })
 }
 )
 
 
-//SCOPO DA LOGICA
+//SCOPO DA LÓGICA
 //Criar uma variável(Var1) que receba os valores da section/input - ok
 
 //Usar o forEach, para cada item da variável, executar a função addEventListner('change',(element) =>{}) que vai gerar a função 'elemento' através da arrow function. - ok
