@@ -20,7 +20,21 @@ fixedBills.forEach((item) => {
 
 // INDIVIDUAL BILLS INPUT AND OUTPUT
 
-var individualBills = document.querySelectorAll('.individual-bills input')
+//SCOPO DA LÓGICA
+//Criar uma variável(Var1) que receba os valores da section/input - ok
+
+//Usar o forEach, para cada item da variável, executar a função addEventListner('change',(element) =>{}) que vai gerar a função 'elemento' através da arrow function. - ok
+
+//Declarar uma nova variavel (Var2) que vai receber o numer(element.target.value) - ok
+
+//Fazer o test logico para saber se o valor é > 0. -ok
+
+//If Number(element.target.value) > 0, inserir um material icon -ok
+
+//Else alert('Digite um montante válido (maior que zero)')-ok
+
+//testar se o material icon ja foiu inserido, if sim, nao faz nada. Else, adciona o material icon.
+let individualBills = document.querySelectorAll('.individual-bills input')
 // console.log(individualBills)
 
 individualBills.forEach((item) => {
@@ -45,23 +59,35 @@ individualBills.forEach((item) => {
     })
 }
 )
+//BOTÃO
+    let addNote = document.querySelector('.button').firstElementChild
+    // console.log (addNote)
+
+    addNote.addEventListener('click', ()=> {
+        let note = document.querySelector('.supermarket')
+        // console.log (note)
+        let newSection = document.createElement('section')
+        newSection.setAttribute('class', 'supermarket box')
+        newSection.innerHTML = `
+        <div>
+            <label for="total">Total:</label>
+            <input type="number" name="total" id="" style="width:80px">
+        </div>
+        <div>
+            <label for="vitor">Vitor:</label>
+                <input type="number" name="vitor" id="" style="width:80px"> </div>
+        <div>
+            <label for="andYas">And/Yas:</label>
+                <input type="number" name="andYas" id="" style="width:80px"></div>
+        <div>
+                <button>x</button>
+        </div>`
+        note.parentNode.appendChild(newSection)
+
+    })
 
 
-//SCOPO DA LÓGICA
-//Criar uma variável(Var1) que receba os valores da section/input - ok
-
-//Usar o forEach, para cada item da variável, executar a função addEventListner('change',(element) =>{}) que vai gerar a função 'elemento' através da arrow function. - ok
-
-//Declarar uma nova variavel (Var2) que vai receber o numer(element.target.value) - ok
-
-//Fazer o test logico para saber se o valor é > 0. -ok
-
-//If Number(element.target.value) > 0, inserir um material icon -ok
-
-//Else alert('Digite um montante válido (maior que zero)')-ok
-
-//testar se o material icon ja foiu inserido, if sim, nao faz nada. Else, adciona o material icon.
-
+// function onclick()
 
 // ************************************************
 // ****************    OLD CODE    ****************
