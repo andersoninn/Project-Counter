@@ -34,7 +34,7 @@ main{
 }
 h2{
     font-size: 1em;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     font-style: normal;
     padding: 10px;
     border-top-left-radius: 10px;
@@ -83,12 +83,13 @@ h2{
     grid-column-start: 2;
     grid-column-end: 4;
 }
-p{
+/* p{
     text-align: center;
     font-style: italic;
     font-size: 0.7em;
 }
 .res{
+    display: none;
     padding: 0px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -97,36 +98,29 @@ p{
 .res div{
     padding: 5px;
     border: var(--border);
-}
+} */
+
 .supermarket{
     grid-template-columns: auto auto auto auto;
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
     box-shadow: none !important;
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding: 0px 10px !important;
 
 }
 .supermarket div{
-    margin-bottom: -10px;
+    margin: 10px 0px 0px 0px;
     padding: 5px;
     border: var(--border);
 }
 label{
     display: block;
 }
-.supermarket button{
-    color: red;
-    font-size: 1.5em;
-}
-.material-symbols-outlined{
-    font-size: 0.5em;
-    color: var(--text-color);   
-}
 .button{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 0px;
     padding-bottom: 25px;
 }
 .button button{
@@ -148,6 +142,21 @@ footer{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 
 
 

@@ -44,7 +44,8 @@ individualBills.forEach((item) => {
         if (trueValue >= 0) {
             // alert('maior ou igual a zero')
             let span = document.createElement('span')
-            span.innerHTML = ' a'
+            span.innerHTML = ` <span class="material-symbols-outlined">
+            check </span>`
             // element.target.parentNode.insertBefore(span,  element.target.nextElementSibling)
             
                 if(element.target.parentNode.children[1] == undefined){
@@ -54,7 +55,7 @@ individualBills.forEach((item) => {
                     // alert('diferente')
                 }
         }else{
-            alert('Digite um montate válido')
+            alert('Digite um montate válido (maior que zero)')
         }
     })
 }
@@ -80,11 +81,16 @@ individualBills.forEach((item) => {
             <label for="andYas">And/Yas:</label>
                 <input type="number" name="andYas" id="" style="width:80px"></div>
         <div>
-                <button>x</button>
+                <button><span class="material-symbols-outlined">
+                delete
+                </span></button>
         </div>`
         note.parentNode.appendChild(newSection)
 
     })
+
+    //REMOVE
+    
 
 
 // function onclick()
