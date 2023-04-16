@@ -67,8 +67,8 @@ individualBills.forEach((item) => {
     // console.log (addNote)
 
     addNote.addEventListener('click', ()=> {
-        let note = document.querySelector('.supermarket')
         // console.log (note)
+        let patherSection = document.querySelectorAll('section')
         let newSection = document.createElement('section')
         newSection.setAttribute('class', 'supermarket box')
         newSection.innerHTML = `
@@ -87,12 +87,22 @@ individualBills.forEach((item) => {
                 delete
                 </span></button>
         </div>`
-        note.parentNode.appendChild(newSection)
-
+        patherSection[2].appendChild(newSection)
     })
 
     //REMOVE
+    let buttonNote = document.querySelector('.supermarket button')
+
+        buttonNote.addEventListener('click', () =>{
+            buttonNote.parentElement.parentElement.remove()
+        })
+    console.log(buttonNote)
+
     
+    //Criar uma variavel que recebe o valor do button (var buttonNote)
+    //criar um evento click que remove o buttonNote.parentElement.parentElement.
+    
+
 
 
 // function onclick()
