@@ -83,20 +83,29 @@ individualBills.forEach((item) => {
             <label for="andYas">And/Yas:</label>
                 <input type="number" name="andYas" id="" style="width:80px"></div>
         <div>
-                <button><span class="material-symbols-outlined">
-                delete
-                </span></button>
+            <button onclick = 'apagar()'>
+                <span class="material-symbols-outlined">
+                delete </span>
+            </button>
         </div>`
         patherSection[2].appendChild(newSection)
     })
 
     //REMOVE
-    let buttonNote = document.querySelector('.supermarket button')
-
+    function apagar(){ 
+        let buttonNote = document.querySelector('.supermarket button') 
         buttonNote.addEventListener('click', () =>{
-            buttonNote.parentElement.parentElement.remove()
+                    buttonNote.parentElement.parentElement.remove() 
         })
-    console.log(buttonNote)
+    }
+
+
+    // let buttonNote = document.querySelector('.supermarket button')
+            
+    //     buttonNote.addEventListener('click', () =>{
+    //         buttonNote.parentElement.parentElement.remove()
+    //     })
+    // console.log(buttonNote)
 
     
     //Criar uma variavel que recebe o valor do button (var buttonNote)

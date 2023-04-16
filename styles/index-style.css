@@ -27,7 +27,7 @@ header{
 main{
     background-color: var(--main-color) ;
     box-shadow: var(--bx-shadown);
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     padding: 10px;
     backdrop-filter: blur(20px); 
     font-size: 1em;
