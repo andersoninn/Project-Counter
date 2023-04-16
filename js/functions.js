@@ -20,20 +20,22 @@ fixedBills.forEach((item) => {
 
 // INDIVIDUAL BILLS INPUT AND OUTPUT
 
-//SCOPO DA LÓGICA
-//Criar uma variável(Var1) que receba os valores da section/input - ok
+//SCOPE OF LOGIC
+//Create a new variable(var1) that receives the value of section input. -ok
 
-//Usar o forEach, para cada item da variável, executar a função addEventListner('change',(element) =>{}) que vai gerar a função 'elemento' através da arrow function. - ok
+//Use forEach, for each item of the variable and execute the functin addEventListiner('change, (element) =>{}) that will generation the fuction 'element' through the arrow function - ok
 
-//Declarar uma nova variavel (Var2) que vai receber o numer(element.target.value) - ok
+//Declarete the new variable (var2) that receive number(element.target.value) - ok
 
-//Fazer o test logico para saber se o valor é > 0. -ok
+//Do the logical test to see if valur is > 0. -ok
 
-//If Number(element.target.value) > 0, inserir um material icon -ok
+//If Number(element.target.value) > 0, inserted the material icon -ok
 
 //Else alert('Digite um montante válido (maior que zero)')-ok
 
-//testar se o material icon ja foiu inserido, if sim, nao faz nada. Else, adciona o material icon.
+//Test if the material icon has been inserted, if yes, do nothing. 
+//Else, add the material icon. -ok
+
 let individualBills = document.querySelectorAll('.individual-bills input')
 // console.log(individualBills)
 
@@ -49,10 +51,10 @@ individualBills.forEach((item) => {
             // element.target.parentNode.insertBefore(span,  element.target.nextElementSibling)
             
                 if(element.target.parentNode.children[1] == undefined){
-                    // alert('adiciona')
+                    // alert('to adds')
                     element.target.after(span)
                 } else{ 
-                    // alert('diferente')
+                    // alert('different')
                 }
         }else{
             alert('Digite um montate válido (maior que zero)')
@@ -60,7 +62,7 @@ individualBills.forEach((item) => {
     })
 }
 )
-//BOTÃO
+    //BUTTON
     let addNote = document.querySelector('.button').firstElementChild
     // console.log (addNote)
 
