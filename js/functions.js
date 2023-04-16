@@ -83,7 +83,7 @@ individualBills.forEach((item) => {
             <label for="andYas">And/Yas:</label>
                 <input type="number" name="andYas" id="" style="width:80px"></div>
         <div>
-            <button onclick = 'apagar()'>
+            <button>
                 <span class="material-symbols-outlined">
                 delete </span>
             </button>
@@ -96,12 +96,17 @@ individualBills.forEach((item) => {
         let buttonNote = document.querySelectorAll('.supermarket button')
         buttonNote.forEach((butao) =>{ 
             console.log(butao)
+            butao.addEventListener('click', ()=>{
+                
+                // buttonNote.parentElement.parentElement.remove() 
+            })
+            // console.log(butao)
             
         })
         // buttonNote.addEventListener('click', () =>{
-        //             buttonNote.parentElement.parentElement.remove() 
+        //             
         // })
-    }
+     }
 
 
     // let buttonNote = document.querySelector('.supermarket button')
