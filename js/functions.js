@@ -93,10 +93,14 @@ individualBills.forEach((item) => {
 
     //REMOVE
     function apagar(){ 
-        let buttonNote = document.querySelector('.supermarket button') 
-        buttonNote.addEventListener('click', () =>{
-                    buttonNote.parentElement.parentElement.remove() 
+        let buttonNote = document.querySelectorAll('.supermarket button')
+        buttonNote.forEach((butao) =>{ 
+            console.log(butao)
+            
         })
+        // buttonNote.addEventListener('click', () =>{
+        //             buttonNote.parentElement.parentElement.remove() 
+        // })
     }
 
 
