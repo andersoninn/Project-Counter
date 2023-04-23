@@ -69,9 +69,9 @@ individualBills.forEach((item) => {
     addNote.addEventListener('click', ()=> {
         // console.log (note)
         let patherSection = document.querySelectorAll('section')
-        let newSection = document.createElement('section')
+        var newSection = document.createElement('section')
         newSection.setAttribute('class', 'supermarket box')
-        newSection.innerHTML = `
+        newSection.innerHTML += `
         <div>
             <label for="total">Total:</label>
             <input type="number" name="total" id="" style="width:80px">
@@ -82,31 +82,28 @@ individualBills.forEach((item) => {
         <div>
             <label for="andYas">And/Yas:</label>
                 <input type="number" name="andYas" id="" style="width:80px"></div>
-        <div>
-            <button>
-                <span class="material-symbols-outlined">
-                delete </span>
-            </button>
+                <div>
+                <button onclick = "apagar()">
+                    <span class="material-symbols-outlined">
+                    delete </span>
+                </button>
         </div>`
         patherSection[2].appendChild(newSection)
+        
     })
 
     //REMOVE
-    function apagar(){ 
-        let buttonNote = document.querySelectorAll('.supermarket button')
-        buttonNote.forEach((butao) =>{ 
-            console.log(butao)
-            butao.addEventListener('click', ()=>{
-                
-                // buttonNote.parentElement.parentElement.remove() 
-            })
-            // console.log(butao)
-            
-        })
-        // buttonNote.addEventListener('click', () =>{
-        //             
-        // })
-     }
+    var buttonNote = document.querySelector('.supermarket button')
+        
+    function apagar(){
+            buttonNote.parentElement.parentElement.remove() 
+    }
+    
+    
+
+    
+    
+     
 
 
     // let buttonNote = document.querySelector('.supermarket button')
