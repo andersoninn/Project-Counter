@@ -18,6 +18,8 @@ fixedBills.forEach((item) => {
        })
 });
 
+   
+
 // INDIVIDUAL BILLS INPUT AND OUTPUT
 
 //SCOPE OF LOGIC
@@ -83,44 +85,42 @@ individualBills.forEach((item) => {
             <label for="andYas">And/Yas:</label>
                 <input type="number" name="andYas" id="" style="width:80px"></div>
                 <div>
-                <button onclick = "apagar()">
+                <button>
                     <span class="material-symbols-outlined">
                     delete </span>
                 </button>
         </div>`
         patherSection[2].appendChild(newSection)
+        evButtom();
+    });
+    evButtom();
+    
+    // REMOVE
+    function evButtom(){
         
-    })
+            document.querySelectorAll('.supermarket button').forEach(elemBtn =>{
+                elemBtn.addEventListener('click', (e)=>{
+                    if(e.target.classList != ''){
+                        var btnElement = e.target.parentNode
+   
+                    } else{
+                        var btnElement = e.target
+                    }
 
-    //REMOVE
-    var buttonNote = document.querySelector('.supermarket button')
-        
-    function apagar(){
-            buttonNote.parentElement.parentElement.remove() 
-    }
-    
-    
-
-    
-    
-     
-
-
-    // let buttonNote = document.querySelector('.supermarket button')
+                    let tamanhoSection = document.querySelectorAll('section button') 
+                        if(tamanhoSection.length > 3){
+                        
+                        btnElement.parentNode.parentNode.remove() 
             
-    //     buttonNote.addEventListener('click', () =>{
-    //         buttonNote.parentElement.parentElement.remove()
-    //     })
-    // console.log(buttonNote)
-
+                        } else{
+                           document.querySelectorAll('.supermarket input').forEach(input =>{
+                            input.value = '0'
+                           })
+                    }
+                })
+            })
+        }
     
-    //Criar uma variavel que recebe o valor do button (var buttonNote)
-    //criar um evento click que remove o buttonNote.parentElement.parentElement.
-    
-
-
-
-// function onclick()
 
 // ************************************************
 // ****************    OLD CODE    ****************
@@ -204,9 +204,6 @@ individualBills.forEach((item) => {
         
 //     })
 
-
-
-    
 
 // function addNote(){
     
