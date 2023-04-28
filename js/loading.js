@@ -103,11 +103,6 @@ setTimeout(function (){
     main.appendChild(ready);
 },22000);
 
-// setTimeout(function (){
-//     let ready2 = main.lastChild;
-//     let ready2P = document.createElement('p');
-//     ready2P.innerHTML = 'Tudo pronto! Seu programa já pode iniciar!';
-
-//     ready2.style = 'display: none';
-//     main.appendChild(ready2P);
-// },24000);
+setTimeout(function (){
+    window.open("http://127.0.0.1:5500/main.html","_self");
+},24000);
