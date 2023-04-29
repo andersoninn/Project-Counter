@@ -1,166 +1,50 @@
 @charset "UTF-8";
-
-
-
-:root{
-    --bg-title: rgb(90, 134, 101) ;
-    --bx-shadown: 2px 10px 10px rgba(0, 0, 0, 0.849);
-    --border: 1px solid rgb(255, 255, 255);
-    --main-color:rgba(255, 255, 255, 0.11);
-    --text-color: white ;   
-}
 body{
-    margin: auto;
-    background-image: url(../images/pexels-andre-moura-2635817.jpg);
+    background-image: url(/images/pexels-andre-moura-2635817.jpg);
     font-family: Arial, Helvetica, sans-serif;
     height: 762px;
     background-size: cover;
-    background-repeat: no-repeat;  
-    width: 100%;
-    height: 100%;
-    color: var(--text-color);
-}
-header{
-    background-color: var(--bg-title) ;
-    box-shadow: var(--bx-shadown);
-    border-radius: 10px;
-    text-align: center;
+    background-repeat: no-repeat; 
+    width: 95vw;
+    height: 100vh;
+    color: white;
 }
 main{
-    background-color: var(--main-color) ;
-    box-shadow: var(--bx-shadown);
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px;
-    backdrop-filter: blur(20px); 
+    margin: 100px auto;
+    width: 331px;
+    height: 346px;
+    background-color: rgba(255, 255, 255, 0.144);
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.849);
+    border: 2px solid rgb(252, 249, 249);
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
     font-size: 1em;
+    text-align: center;
+}
+h1{
+    background-color: rgb(90, 134, 101);
+    color: white;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
+}
+p{
+    padding: 12px;
+    font-size: 0.8em;
+    text-align: justify;
+    text-indent: 20px;
 }
 h2{
-    font-size: 1em;
-    /* font-weight: lighter; */
-    font-style: normal;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color:var(--bg-title);
-    text-align: center;
-    margin-bottom: 0px;
-} 
-.box{
-    margin: 0px;
-    padding: 10px;
-    box-shadow: var(--bx-shadown);
-    background-color:var(--main-color);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: center ;
-    display: grid;
-}
-.fixed-bills{   
-    grid-template-columns: auto auto auto;
-}
-.fixed-bills div{
-    padding: 10px;
-    border: var(--border);
-}
-.individual-bills{
-    background-color:var(--main-color);
-    grid-template-columns: 20% auto auto;
-}
-.individual-bills div{
-    line-height: 28px;
-    padding: 5px;
-    border: var(--border);
-}
-#nos{
-    line-height: 228px;
-    grid-row-start: 1;
-    grid-row-end: 7;
-}
-#spotify{
-    line-height: 80px;
-}
-#spotify-discription{
-    text-align: justify;
-    font-size: 0.8em;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-/* p{
-    text-align: center;
-    font-style: italic;
-    font-size: 0.7em;
-}
-.res{
-    display: none;
-    padding: 0px 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
     text-align: center;
 }
-.res div{
-    padding: 5px;
-    border: var(--border);
-} */
-
-.supermarket{
-    grid-template-columns: auto auto auto auto;
-    border-bottom-left-radius: 0px !important;
-    border-bottom-right-radius: 0px !important;
-    box-shadow: none !important;
-    margin-bottom: 0px;
-    padding: 0px 10px !important;
-
-}
-.supermarket div{
-    margin: 10px 0px 0px 0px;
-    padding: 5px;
-    border: var(--border);
-}
-label{
-    display: block;
-}
-.button{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0px;
-    padding-bottom: 25px;
-}
-.button button{
-    padding: 8px;
-    color: var(--text-color);
-    background-color: var(--bg-title);
-    box-shadow: var(--bx-shadown);
-   border-radius: 10px;
-    
-}
-footer{
-    margin: -10px 0px 5px 0px;
+button{
     padding: 10px;
-    font-size: 0.6em;
-    text-align: center;
-    background-color:var(--bg-title);
-    box-shadow: var(--bx-shadown);
-
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background-color: rgb(90, 134, 101);
+    color: white;
+    border: 0px solid black;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+button:hover{
+    border: 0px solid  rgb(90, 134, 101);
+    box-shadow: 0px 0px 20px rgb(90, 134, 101);
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
-
-
-
-
-
-
