@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-image: url(../images/pexels-andre-moura-2635817.jpg);
+    background-image: url(/images/pexels-andre-moura-2635817.jpg);
     font-family: Arial, Helvetica, sans-serif;
     height: 762px;
     background-size: cover;
