@@ -8,7 +8,7 @@ var main = document.querySelector('main')
 setTimeout(function(){
     let start = document.createElement('p')
     start.setAttribute('id', 'start')
-    start.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp'
+    start.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.'
 
     main.appendChild(start)
 },1000);
@@ -16,7 +16,7 @@ setTimeout(function(){
 setTimeout(function(){
     let start = main.lastChild
     let startP = document.createElement('p')
-    startP.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp'
+    startP.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.'
 
     start.style = 'display: none';
     main.appendChild(startP)
@@ -26,7 +26,7 @@ setTimeout(function(){
 setTimeout(function (){
     let vitor = document.createElement('p');
     vitor.setAttribute('id', 'start');
-    vitor.innerHTML = 'Oferencendo carne ao Vitor &nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp';
+    vitor.innerHTML = 'Oferencendo carne ao Vitor .&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
     
     main.appendChild(vitor);
 },5000);
@@ -34,7 +34,7 @@ setTimeout(function (){
 setTimeout(function (){
     let vitor = main.lastChild;
     let vitorP = document.createElement('p');
-    vitorP.innerHTML = 'Oferencendo carne ao Vitor &nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
+    vitorP.innerHTML = 'Oferencendo carne ao Vitor .&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
 
     vitor.style = 'display: none';
     main.appendChild(vitorP);
@@ -44,7 +44,7 @@ setTimeout(function (){
 setTimeout(function (){
     let yasmim = document.createElement('p');
     yasmim.setAttribute('id', 'start');
-    yasmim.innerHTML = 'Arrumando as bagunças da Yasmim &nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
+    yasmim.innerHTML = 'Arrumando as bagunças da Yasmim&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
     
     main.appendChild(yasmim);
 },9000);
@@ -52,7 +52,7 @@ setTimeout(function (){
 setTimeout(function (){
     let yasmim = main.lastChild;
     let yasmimP = document.createElement('p');
-    yasmimP.innerHTML = 'Arrumando as bagunças da Yasmim &nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
+    yasmimP.innerHTML = 'Arrumando as bagunças da Yasmim&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
 
     yasmim.style = 'display: none';
     main.appendChild(yasmimP);
@@ -62,7 +62,7 @@ setTimeout(function (){
 setTimeout(function (){
     let yasmim = document.createElement('p');
     yasmim.setAttribute('id', 'start');
-    yasmim.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp';
+    yasmim.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
     
     main.appendChild(yasmim);
 },13000);
@@ -70,7 +70,7 @@ setTimeout(function (){
 setTimeout(function (){
     let yasmim2 = main.lastChild;
     let yasmim2P = document.createElement('p');
-    yasmim2P.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp';
+    yasmim2P.innerHTML = '.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
 
     yasmim2.style = 'display: none';
     main.appendChild(yasmim2P);
@@ -80,7 +80,7 @@ setTimeout(function (){
 setTimeout(function (){
     let chiriba = document.createElement('p');
     chiriba.setAttribute('id', 'start');
-    chiriba.innerHTML = 'Fazendo carinho na Chiriba &nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
+    chiriba.innerHTML = 'Fazendo carinho na Chiriba .&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
     
     main.appendChild(chiriba);
 },17000);
@@ -88,7 +88,7 @@ setTimeout(function (){
 setTimeout(function (){
     let chiriba2 = main.lastChild;
     let chiriba2P = document.createElement('p');
-    chiriba2P.innerHTML = 'Fazendo carinho na Chiriba &nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
+    chiriba2P.innerHTML = 'Fazendo carinho na Chiriba .&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.&nbsp&nbsp.';
 
     chiriba2.style = 'display: none';
     main.appendChild(chiriba2P);
