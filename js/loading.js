@@ -104,5 +104,5 @@ setTimeout(function (){
 },22000);
 
 setTimeout(function (){
-    window.open("http://127.0.0.1:5500/main.html","_self");
+    window.open("main.html","_self");
 },24000);
