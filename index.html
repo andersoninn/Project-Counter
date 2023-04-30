@@ -1,27 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index-style.css">
-    <title>Bem vindo!AA</title>
+    <link rel="stylesheet" href="/styles/main-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    
+    <title>Contador</title>
 </head>
 <body>
     <main>
-        <h1>
-            Seja bem vindo ao Programa Contador!
-        </h1>
-        <p>
-            Este programa foi desenvolvido para facilitar as divisões de contas mensais da "Jungle Home", feita entre:
-            Anderson Carvalho (desenvolvedor), 
-            Yasmim Freitas (ditadora), e nosso primo vegano que mora com a gente, Vitor Mattos.
-        </p>
-        <h2>
-            Para aceder ao programa clique no botão a baixo:
-        </h2>
-        <button onclick="welcome()"> ACEDER</button>
+        <header>
+            <h1>CONTADOR</h1>
+        </header>
+            <h2>CONTAS COMUNS</h2>
+            <section class="fixed-bills box" >
+                
+                <div>Tipo de conta</div>
+                <div>Valor da conta</div>
+                <div>Valor da divisão</div>
+            
+                <div>Aluguel</div>
+                <div><input type="number" name="" id="" style="width:80px"></div>
+                <div>0.00</div>
+                
+                <div>Luz</div>
+                <div><input type="number" name="" id="" style="width:80px"></div>
+                <div>0.00</div>
+                
+                <div>Água</div>
+                <div><input type="number" name="" id="" style="width:80px"></div>
+                <div>0.00</div> 
+                
+                <div>Esgoto</div>
+                <div><input type="number" name="" id="" style="width:80px"></div>
+                <div>0.00</div>  
+            </section>
+        
+                <h2>CONTAS INDIVIDUAIS</h2>
+                <section class="individual-bills box">
+                    <div id="nos">NOS</div>
+                    <div >Pack NOS</div>
+                    <div><input type="number" name="" id=""  style="width:80px"></div>
+                    <div>Aparelhos</div>
+                    <div><input type="number" name="" id="" style="width:80px"></div>
+                
+                    <div>Tel. And</div>
+                    <div><input type="number" name="" id="" style="width:80px"></div>
+                
+                    <div>Tel. Yas</div>
+                    <div><input type="number" name="" id="" style="width:80px"></div>
+                    <div>Tel. Vitor</div>
+                    <div><input type="number" name="" id="" style="width:80px"></div>
+                    <div>Tel. Sandra</div>
+                    <div><input type="number" name="" id="" style="width:80px"></div>
+                
+                    <div id="spotify">Spotify</div>
+                    <div id="spotify-discription">
+                        Os valores do plano família do Spotify (2,00€/pessoa) serão somados aos valores finais desta aba, para as pessoas que o utilizam. Sendo: Anderson, Yasmim e Vitor.
+                    </div>
+            </section>
+            
+            <h2> COMPRAS DE MERCADO </h2>
+            <section>
+                <section class="supermarket box">
+                    <div>
+                        <label for="total">Total:</label>
+                        <input type="number" name="total" id="" style="width:80px">
+                    </div>
+                    <div>
+                        <label for="vitor">Vitor:</label>
+                            <input type="number" name="vitor" id="" style="width:80px"> </div>
+                    <div>
+                        <label for="andYas">And/Yas:</label>
+                            <input type="number" name="andYas" id="" style="width:80px"></div>
+                    <div>
+                            <button>
+                                <span class="material-symbols-outlined">
+                                delete </span>
+                            </button>
+                    </div>
+                </section>
+            </section>
+        <section class="button box">
+            <button>Adcionar nova nota +</button>
+            <button type="submit">Submeter</button>
+        </section>
+        
+        <footer>Developed by Anderson Carvalho ©</footer>     
     </main>
-    <script src="/js/index.js"></script>
+    <script src="/js/main-functions.js"></script>
 </body>
 </html>
