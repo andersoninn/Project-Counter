@@ -1,6 +1,6 @@
 // Inicializing
 
 function welcome(){
-    window.open("loading.html","_self")
+    window.open("../loading.html","_self")
 
 }
