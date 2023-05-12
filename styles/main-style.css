@@ -13,11 +13,8 @@ body{
     margin: auto;
     background-image: url(../images/pexels-andre-moura-2635817.jpg);
     font-family: Arial, Helvetica, sans-serif;
-    height: 762px;
-    background-size: cover;
-    background-repeat: no-repeat;  
-    width: 100%;
-    height: 100%;
+    width: 99vw;
+    height: 99vh;
     color: var(--text-color);
 }
 header{
@@ -27,12 +24,15 @@ header{
     text-align: center;
 }
 main{
+    position: relative;
+    
     background-color: var(--main-color) ;
     box-shadow: var(--bx-shadown);
     border-radius: 10px 10px 0px 0px;
     padding: 10px;
     backdrop-filter: blur(20px); 
     font-size: 1em;
+    
 }
 h2{
     font-size: 1em;
@@ -74,7 +74,7 @@ h2{
 #nos{
     line-height: 228px;
     grid-row-start: 1;
-    grid-row-end: 7;
+    grid-row-end: 6;
 }
 #spotify{
     line-height: 80px;
@@ -85,22 +85,6 @@ h2{
     grid-column-start: 2;
     grid-column-end: 4;
 }
-/* p{
-    text-align: center;
-    font-style: italic;
-    font-size: 0.7em;
-}
-.res{
-    display: none;
-    padding: 0px 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-}
-.res div{
-    padding: 5px;
-    border: var(--border);
-} */
 
 .supermarket{
     grid-template-columns: auto auto auto auto;
@@ -158,9 +142,33 @@ footer{
   'GRAD' 0,
   'opsz' 48
 }
-
-
-
+#pop-up{
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(126, 123, 123, 0.89);
+    margin: auto;
+    padding: 10px 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#pop-up div{
+    border: 4px solid rgb(255, 254, 254);
+    margin: 10px auto;
+    box-shadow: 0px 0px 10px white;
+    padding: 20px;
+    width: 82vw;
+    height: 50vh;
+    background-color: rgb(49, 48, 48);
+    border-radius: 10px;
+}
 
 
 

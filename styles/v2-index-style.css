@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-image: url(../images/pexels-andre-moura-2635817.jpg);
+    background-image: url(/images/pexels-andre-moura-2635817.jpg);
     font-family: Arial, Helvetica, sans-serif;
     height: 762px;
     background-size: cover;
@@ -9,7 +9,6 @@ body{
     height: 100vh;
     color: white;
 }
-
 main{
     margin: 100px auto;
     width: 331px;
@@ -29,23 +28,13 @@ h1{
     border-radius: 10px;
 }
 p{
-    padding: 12px 12px 0px 12px;
+    padding: 12px;
     font-size: 0.8em;
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 20px;
 }
 h2{
-    margin: 0px;
-    padding: 12px;
     text-align: center;
-}
-ul{
-   margin: 0px 10px;
-}
-li{
-    text-align: justify;
-    font-size: 0.8em;
-    
 }
 button{
     padding: 10px;
