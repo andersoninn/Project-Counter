@@ -1,8 +1,8 @@
 # 🧮 Project Counter
 
 Este foi o meu **primeiro projeto pessoal**, desenvolvido de forma solo, onde pude criar e testar minhas habilidades em **JavaScript**, **HTML5** e **CSS3**.  
-O objetivo do projeto foi resolver um problema real: gerenciar e dividir as contas da minha casa entre três pessoas, considerando particularidades como dietas específicas.
-💡 Inspiração
+
+##💡 Inspiração
 Este projeto foi inspirado por uma situação da minha vida pessoal, onde dividi as despesas da casa com minha esposa e primo. Por ser vegano, meu primo não participava de algumas divisões, como custos com alimentos específicos. O Project Counter foi criado para resolver esse desafio de maneira justa e organizada.
 
 ## 🛠️ Tecnologias Utilizadas
